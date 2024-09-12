@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+html{
+    background-color: darkred;
+    background-image: linear-gradient(90deg, rgb(11, 93, 93),  #a52a2a8f)
+    
+}
+
+body{
+    border: 2px solid yellow;
+    padding: 10px 30px;
+    background-color: black;
+    color:aliceblue;
+    margin: 30px 10px 20px 40px;
+    
+}
+
+h1{
+    color: darkcyan;
+}
+
+h2{
+    color: darkgreen;
+}
+
+p{
+    text-align: justify;
+    color: gold;
+}
