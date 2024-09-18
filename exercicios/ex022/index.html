@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo com imagem</title>
+    <style>
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Altura total da viewport */
+        }
+        .box {
+            width: 300px;
+            height: 300px;
+            margin: 5px
+        }
+        #q1{
+            background-image: linear-gradient(yellow, darkred);
+        }
+        #q2{
+            background-color: lightblue;
+        }
+        #q3{
+            background-image: url(img/pattern003.png)
+        }
+    </style>
+</head>
+<body>
+   <div class="container">
+        <div class="box" id="q1"></div>
+        <div class="box" id="q2"></div>
+        <div class="box" id="q3"></div>
+   </div>
+</body>
+</html>
